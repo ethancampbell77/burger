@@ -13,7 +13,7 @@
 
 **To run locally**
 
-**Clone Repository
+**Clone Repository**
 *run* **npm install**
 **set up local database by adding your db to *connection.js* in *Config* directory**
 *run queries for* **Schema and Seed Files** OR set up schema and add your own burgers manually
