@@ -27,3 +27,5 @@ App Hosted on Heroku Here: https://burger-todo-list.herokuapp.com/burgers
 2. Add your own "To-do" burgers to the list (and DB) by entering the name into the form at the bottom of the app and clicking "submit"
 
 *To Learn more about **Bob's** different burgers of the day you can watch all 9 seasons **OR** you can check out this article on* **Thrillist.com**: https://www.thrillist.com/eat/nation/every-burger-from-bob-s-burgers-ranked
+
+![Working App Screenshot](https://github.com/ethancampbell77/burger/blob/master/public/assets/img/burgerScreen.png)
