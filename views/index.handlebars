@@ -1,0 +1,68 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+        
+        <!-- Heading -->
+			<p class="titleText">It's Burger Time!</p>
+		</div>
+		<div class="row">
+		<div class="col-md-12">
+        
+        <!-- Sub Heading -->
+			<p class="subText">It's A Burger Safari - Track What You Crave</p>
+		</div>
+		
+
+        <!-- Left Side Container - Uneaten Burger List -->
+		<div class="col-md-6" class="task">
+          <h2 class="leftTitle">To-Do List</h2>
+			<div class="row">
+			  {{#each burger_data}}
+			  	{{#unless this.devoured}}
+				<div class="col-md-8">
+					<pre class="burgName">{{this.burger_name}}
+					</pre>
+				</div>
+				<div class="col-md-2">
+					<form class="devour-form">
+						<input input type="hidden" class="burger_id" type="text" value={{this.id}}><br>
+						<button type="submit" class="btn btn-dark">EAT IT!</button>
+					</form>
+				</div>
+				{{/unless}}
+			  {{/each}}
+			</div>
+		</div>
+        <!-- Right side of screen - Eaten Burgers -->
+		<div class="col-md-6" class="task">
+          <h2 class="rightTitle">Burgers in the Bag!</h2>
+			  {{#each burger_data}}
+			  	{{#if this.devoured}}
+			  		<div class="ateBurg">{{this.burger_name}}</div>
+				{{/if}}
+			  {{/each}}
+		</div>
+	</div>
+</div>
+
+<!-- Add burger container -->
+<div class="container userForm">
+	<div class="row">
+		<div class="col-md-12 enter_section">
+            <h4>Add Any Burger You Like To This Burger Safari!</h4>
+			<form action="/burgers/create" method="POST">
+				<input type="text" class="form-control" name="burger_name" value="" id="enter_text">
+				<button type="submit" class="btn btn-primary userSubmit" id="text-enter-button">Submit</button>
+			</form>
+		</div>
+  </div>
+</div>
+<!-- Little Bob Belcher -->
+</div class="container">
+  <div class="row">
+      <div class="offset-md-5 col-md-2 bobBox">
+        <a href="https://www.thrillist.com/eat/nation/every-burger-from-bob-s-burgers-ranked" target="blank"><img class="bobImg" src="/assets/img/bob.png" alt="bob"></a>
+      </div>
+  </div>
+</div>
+

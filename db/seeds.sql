@@ -1,0 +1,15 @@
+INSERT INTO burgers (burger_name, devoured) VALUES 
+("Bohemian Radishy Burger", FALSE),
+("Texas Chainsaw Massa-curd Burger", FALSE),
+("Little Swiss Bunshine", FALSE),
+("Freedom of Choys Burger", FALSE),
+("I Fought the Slaw Burger", FALSE),
+("Kales From the Crypt Burger", FALSE),
+("Mesclun Around Burger", FALSE),
+("Chipotle Off the Old Block Burger", FALSE),
+("Sgt. Poblano Pepper Lonely Artichoke Hearts Club Burger", FALSE),
+("Paranormal Pepper Jack-tivity Burger", FALSE),
+("Chile Relleno-You-Didn't Burger", FALSE),
+("Beets of Burden Burger", FALSE),
+("Eggers Can't Be Cheesers", FALSE),
+("The Cauliflower's Cumin From Inside the House Burger", FALSE);

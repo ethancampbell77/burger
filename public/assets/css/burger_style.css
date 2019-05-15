@@ -1,0 +1,82 @@
+/* font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Modak', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Noto Sans TC', sans-serif; */
+
+/* Custom CSS */
+
+body {
+    background-image: url("/assets/img/fourCheddar.png");
+    background-color:rgb(255, 250, 249);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+div.bobLogo {
+    max-width: 33.3%;
+}
+
+p.titleText {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+p.subText {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+h2.rightTitle {
+    text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;    
+    font-weight: bolder;
+
+}
+
+h2.leftTitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+pre.burgName {
+    color: rgb(70, 67, 67);
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+div.ateBurg {
+color: rgb(70, 67, 67);
+font-family: 'Noto Sans TC', sans-serif;
+font-size: 18px;
+margin-top: 45px;
+text-align: right;
+}
+
+
+h4 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+button.userSubmit {
+    margin-top: 10px;
+    float: right;
+}
+
+div.userForm {
+    margin-bottom: 70px;
+}
+
+/* Lil Bob Belcher */
+img.bobImg {
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
