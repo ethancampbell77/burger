@@ -1,4 +1,4 @@
-# burger
+# It's Burger Time!
 ## A burger tracking (To-Do Style) app utilizing Node and Handlebars
 
 **This is essentially a to-do list for tracking burgers you's like to eat. All initial burgers come from "Burger of the Day" from Bob's Burgers**
